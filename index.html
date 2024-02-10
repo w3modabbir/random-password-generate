@@ -17,13 +17,19 @@
 <body>
     <!--==== rendome password generatore stare here ==========-->
     <div class="password_generatore_main">
-        <h2>generatore a <span>random password</span></h2>
+        <h1>generatore a <span>random password</span></h1>
         <div class="password_input">
             <form action="#" method="post">
-                <input type="text" id="password" placeholder="password">
-                <i class="fa-regular fa-copy"></i>
+                <div>
+                    <input type="text" id="password" placeholder="password">
+                <div class="icon">
+                    <i class="fa-regular fa-copy copyBtn"></i>
+                </div>
+                </div>
             </form>
+           
         </div>
+        <button onclick="generatePassword()"><i class="fa-solid fa-bolt"></i> generate password</button>
     </div>
     <!--==== rendome password genaratore end =================-->
     
